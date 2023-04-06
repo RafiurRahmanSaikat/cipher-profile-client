@@ -5,9 +5,12 @@ import GitHubCalendar from "react-github-calendar";
 
 const Home = () => {
   return (
-   <div>
-    Home
-   </div>
+    <div className="p-10 m-10 mx-auto max-w-screen-lg">
+      <GitHubCalendar
+        children={<ReactTooltip html />}
+        username="RafiurRahmanSaikat"
+      />
+    </div>
   );
 };
 
